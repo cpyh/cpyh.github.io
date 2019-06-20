@@ -3,19 +3,30 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>test | Hexo</title>
+  <title>数据库系统概论 | 成酱</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <meta name="keywords" content="博客">
   
-  <meta property="og:type" content="article">
-<meta property="og:title" content="test">
+  <meta name="description" content="第一章 绪论部分   数据库的四个基本概念   数据(data)   数据是数据库中存储的基本对象 描述事物的符号记录称为数据 数据的含义称为数据的语义，数据与其语义是不可分的   数据库(DataBase, DB)   数据库是长期存储在计算机内、有组织的、可共享的大量数据的集合。  基本特征   数据按一定的数据模型组织、描述和储存 具有较小的冗余度(redundancy) 较高的数据独立性">
+<meta name="keywords" content="-- 笔记 -- test">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据库系统概论">
 <meta property="og:url" content="cpyh.github.io/2019/03/28/test/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="成酱">
+<meta property="og:description" content="第一章 绪论部分   数据库的四个基本概念   数据(data)   数据是数据库中存储的基本对象 描述事物的符号记录称为数据 数据的含义称为数据的语义，数据与其语义是不可分的   数据库(DataBase, DB)   数据库是长期存储在计算机内、有组织的、可共享的大量数据的集合。  基本特征   数据按一定的数据模型组织、描述和储存 具有较小的冗余度(redundancy) 较高的数据独立性">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-28T02:42:44.653Z">
+<meta property="og:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image002.png">
+<meta property="og:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image003.png">
+<meta property="og:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image004.png">
+<meta property="og:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image005.png">
+<meta property="og:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image006.png">
+<meta property="og:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image009.png">
+<meta property="og:updated_time" content="2019-06-20T01:50:25.016Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
+<meta name="twitter:title" content="数据库系统概论">
+<meta name="twitter:description" content="第一章 绪论部分   数据库的四个基本概念   数据(data)   数据是数据库中存储的基本对象 描述事物的符号记录称为数据 数据的含义称为数据的语义，数据与其语义是不可分的   数据库(DataBase, DB)   数据库是长期存储在计算机内、有组织的、可共享的大量数据的集合。  基本特征   数据按一定的数据模型组织、描述和储存 具有较小的冗余度(redundancy) 较高的数据独立性">
+<meta name="twitter:image" content="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image002.png">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -88,7 +99,7 @@
             <nav class="header-nav">
                 <div class="social">
                     
-                        <a title="首页" target="_blank" href="//cpyh.github.io">
+                        <a title="CSDN" target="_blank" href="//https://blog.csdn.net/stupid_dernier">
                             <i class="fa fa-home fa-2x"></i></a>
                     
                         <a title="Github" target="_blank" href="//github.com/cpyh">
@@ -107,7 +118,7 @@
         
   
     <h1 class="post-title" itemprop="name">
-      test
+      数据库系统概论
     </h1>
     <div class="post-title-bar">
       <ul>
@@ -129,11 +140,1348 @@
     <div class="article-entry post-content" itemprop="articleBody">
       
             
-            
+            <ul>
+<li><h1 id="第一章-绪论部分"><a href="#第一章-绪论部分" class="headerlink" title="第一章 绪论部分"></a>第一章 绪论部分</h1></li>
+<li><ul>
+<li><ul>
+<li><p>数据库的四个基本概念</p>
+</li>
+<li><ul>
+<li><p>数据(data)</p>
+</li>
+<li><ul>
+<li>数据是数据库中存储的基本对象</li>
+<li>描述事物的符号记录称为数据</li>
+<li>数据的含义称为数据的语义，数据与其语义是不可分的</li>
+</ul>
+</li>
+<li><p>数据库(DataBase, DB)</p>
+</li>
+<li><ul>
+<li><p>数据库是长期存储在计算机内、有组织的、可共享的大量数据的集合。</p>
+</li>
+<li><p>基本特征</p>
+</li>
+<li><ul>
+<li>数据按一定的数据模型组织、描述和储存</li>
+<li>具有较小的冗余度(redundancy)</li>
+<li>较高的数据独立性(data           independency)</li>
+<li>易扩展性(scalability)</li>
+<li>为各种用户共享</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据库管理系统(DataBase         Management System, DBMS)</p>
+</li>
+<li><ul>
+<li><p>数据库管理系统是位于用户与操作系统之间的一层数据管理软件。数据库管理系统和操作系统一样是计算机的基础软件，也是一个大型复杂的软件系统</p>
+</li>
+<li><p>作用</p>
+</li>
+<li><ul>
+<li>科学地组织和存储数据</li>
+<li>高效地获取和维护数据</li>
+</ul>
+</li>
+<li><p>主要功能</p>
+</li>
+<li><ul>
+<li>数据定义功能</li>
+<li>数据组织、存储和管理</li>
+<li>数据操纵功能</li>
+<li>数据库的事务管理和运行管理</li>
+<li>数据库的建立和维护功能</li>
+<li>其他功能</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据库系统(DataBase         System, DBS)</p>
+</li>
+<li><ul>
+<li>数据库系统是由数据库、数据库管理系统（及应用开发工具）、应用程序和数据库管理员(DataBase          Administrator, DBA)组成的存储、管理、处理和维护数据的系统。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据库系统的特点</p>
+</li>
+<li><ul>
+<li><p>数据结构化</p>
+</li>
+<li><ul>
+<li><p>数据库系统实现整体数据的结构化，这是数据库的主要特征之一，也是数据库系统与文件系统的本质区别。</p>
+</li>
+<li><ul>
+<li>“整体”结构化是指数据库中的数据不再仅仅针对某一个应用，而是面向整个组织或企业；不仅数据内部是结构化的，而且整体是结构化的，数据之间是具有联系的。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据的共享性高、冗余度低且易扩充</p>
+</li>
+<li><ul>
+<li>数据库系统从整体角度看待和描述数据，数据面向整个系统，可以被多个用户、多个应用共享使用。减少了数据冗余，节约了存储空间，避免了数据之间的不相容性与不一致性，并且易于扩充。</li>
+</ul>
+</li>
+<li><p><strong>数据独立性高</strong></p>
+</li>
+<li><ul>
+<li><p>物理独立性</p>
+</li>
+<li><ul>
+<li>指用户的应用程序与数据库中数据的物理存储是相互独立的。即：物理存储改变时应用程序不用改变。</li>
+</ul>
+</li>
+<li><p>逻辑独立性</p>
+</li>
+<li><ul>
+<li>指用户的应用程序与数据库的逻辑结构是相互独立的，即：数据的逻辑结构改变时用户程序可以不变。</li>
+</ul>
+</li>
+<li><p>数据独立性是由数据库管理系统提供的二级映像功能来保证的。</p>
+</li>
+</ul>
+</li>
+<li><p>数据由数据库管理系统统一管理和控制</p>
+</li>
+<li><ul>
+<li><p>数据的安全性(security)保护</p>
+</li>
+<li><ul>
+<li>防止不合法使用造成的数据泄密和破坏</li>
+</ul>
+</li>
+<li><p>数据的完整性(integrity)检查</p>
+</li>
+<li><ul>
+<li>数据完整性指数据的正确性、有效性和相容性。</li>
+<li>完整性检查将数据控制在有效的范围内，并保证数据之间满足一定的关系</li>
+</ul>
+</li>
+<li><p>并发(concurrency)控制</p>
+</li>
+<li><ul>
+<li>对多用户的并发操作加以控制和协调</li>
+</ul>
+</li>
+<li><p>数据库恢复(recovery)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据模型</p>
+</li>
+<li><ul>
+<li><p>数据模型(data model) 是对现实世界数据特征的抽象，是现实世界的模拟，是数据库系统的核心和基础。</p>
+</li>
+<li><p>数据模型应满足三方面要求</p>
+</li>
+<li><ul>
+<li>真实地模拟现实世界</li>
+<li>容易为人所理解</li>
+<li>便于在计算机上实现</li>
+</ul>
+</li>
+<li><p>数据模型的组成要素</p>
+</li>
+<li><ul>
+<li><p>数据模型通常由数据结构、数据操作和数据的完整性约束条件三部分组成</p>
+</li>
+<li><p>数据结构</p>
+</li>
+<li><ul>
+<li>数据结构描述数据库的组成对象以及对象之间的联系</li>
+</ul>
+</li>
+<li><p>数据操作</p>
+</li>
+<li><ul>
+<li>数据操作是指对数据库中各种对象（型）的实例（值）允许执行的操作的集合，包括操作及有关的操作规则。</li>
+<li>主要有查询和更新（包括插入、删除、修改）两大类操作。数据模型必须定义这些操作的确切含义、操作符号、操作规则（如优先级）以及实现操作的语言。</li>
+</ul>
+</li>
+<li><p>数据的完整性约束条件</p>
+</li>
+<li><ul>
+<li><p>数据的完整性约束条件是一组完整性规则</p>
+</li>
+<li><ul>
+<li>完整性规则是给定的数据模型中数据及其联系所具有的制约和依存规则，用以限定符合数据模型的数据库状态以及状态的变化，以保证数据的正确、有效和相容。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>两种数据模型</p>
+</li>
+<li><ul>
+<li><p>概念模型(conceptual          model)</p>
+</li>
+<li><ul>
+<li><p>也称信息模型，按用户的观点来对数据和信息建模，主要用于数据库设计。</p>
+</li>
+<li><p>用途</p>
+</li>
+<li><ul>
+<li>用于信息世界的建模</li>
+<li>是现实世界到机器世界的一个中间层次</li>
+<li>是数据库设计的有力工具</li>
+<li>是数据设计人员和用户之间进行交流的语言</li>
+</ul>
+</li>
+<li><p>要求</p>
+</li>
+<li><ul>
+<li>较强的语义表达能力</li>
+<li>能够方便、直接地表达应用中的各种语义知识</li>
+<li>简单、清晰、易于用户理解</li>
+</ul>
+</li>
+<li><p>信息世界中的基本概念</p>
+</li>
+<li><ul>
+<li><p>实体(entity)</p>
+</li>
+<li><ul>
+<li>客观存在并可互相区别的事务称为实体</li>
+</ul>
+</li>
+<li><p>属性(attribute)</p>
+</li>
+<li><ul>
+<li><p>实体所具有的某一特性称为属性</p>
+</li>
+<li><p>域</p>
+</li>
+<li><ul>
+<li>属性的取值范围称为该属性的域</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>码(key)/键</p>
+</li>
+<li><ul>
+<li>唯一标识的属性集称为码</li>
+</ul>
+</li>
+<li><p>实体型(entity            type)</p>
+</li>
+<li><ul>
+<li>用实体名及其属性名集合来抽象和刻画同类实体，称为实体型。</li>
+</ul>
+</li>
+<li><p>实体集(entity            set)</p>
+</li>
+<li><ul>
+<li>同一类型实体的集合称为实体集</li>
+</ul>
+</li>
+<li><p>联系(relationship)</p>
+</li>
+<li><ul>
+<li>信息世界中反映为实体（型）内部的联系和实体（型）之间的联系。实体内部的联系通常是指组成实体的各属性之间的联系，实体之间的联系通常是指不同实体集之间的联系。</li>
+<li>实体之间的联系有一对一、一对多和多对多等多种类型。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>概念模型的一种表示方法：实体-联系方法</p>
+</li>
+<li><ul>
+<li><p>实体-联系方法(Entity-Relationship            approach)</p>
+</li>
+<li><ul>
+<li>用E-R图(E-R             diagram)来描述现实世界的概念模型</li>
+<li>E-R方法也称为E-R模型（第七章）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>逻辑模型和物理模型</p>
+</li>
+<li><ul>
+<li><p>逻辑模型</p>
+</li>
+<li><ul>
+<li><p>数据库领域中主要的逻辑数据模型有</p>
+</li>
+<li><ul>
+<li><p>层次模型（和网状模型统称为 格式化模型）</p>
+</li>
+<li><p>网状模型（和层次模型统称为 格式化模型）</p>
+</li>
+<li><ul>
+<li><p>格式化模型中数据结构的单位是基本层次联系</p>
+</li>
+<li><ul>
+<li>基本层次联系是指两个记录以及它们之间的一对多（包括一对一）的联系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系模型</p>
+</li>
+<li><p>面向对象数据模型</p>
+</li>
+<li><p>对象关系数据模型</p>
+</li>
+<li><p>半结构化数据模型</p>
+</li>
+</ul>
+</li>
+<li><p>层次模型</p>
+</li>
+<li><ul>
+<li><p>数据库系统中最早出现的数据模型</p>
+</li>
+<li><p>层次模型的数据结构</p>
+</li>
+<li><ul>
+<li><p>在数据库中定义满足下面两个条件的基本层次联系的集合为层次模型</p>
+</li>
+<li><ul>
+<li><p>有且只有一个结点没有双亲结点，（这个结点称为根节点）</p>
+</li>
+<li><p>根以外的其他结点有且只有一个双亲结点</p>
+</li>
+<li><ul>
+<li>层次模型像一颗树，结点的双亲是唯一的。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>层次模型的数据操作与完整性约束</p>
+</li>
+<li><ul>
+<li>层次模型的数据操纵主要有查询、插入、删除和更新。</li>
+</ul>
+</li>
+<li><p>层次模型的优缺点</p>
+</li>
+<li><ul>
+<li><p>优点</p>
+</li>
+<li><ul>
+<li>层次模型的数据结构比较简单清晰</li>
+<li>层次模型的查询效率高，性能优于关系数据库，不低于网状数据库</li>
+<li>层次模型提供了良好的完整性支持</li>
+</ul>
+</li>
+<li><p>缺点</p>
+</li>
+<li><ul>
+<li>不适用现实世界中非层次性的联系，如结点之间多对多联系</li>
+<li>插入和删除操作的限制比较多，应用程序的编写比较复杂</li>
+<li>查询子女结点必须通过双亲结点</li>
+<li>由于结构严密，层次命令趋于程序化</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>网状模型</p>
+</li>
+<li><ul>
+<li><p>层次模型不适合表示非树形结构，网状模型克服这一弊病。</p>
+</li>
+<li><p>网状数据模型的典型代表是DBTG系统，亦称CODASYL系统</p>
+</li>
+<li><p>网状模型的数据结构</p>
+</li>
+<li><ul>
+<li><p>在数据库中，把满足以下两个条件的基本层次联系集合称为网状模型</p>
+</li>
+<li><ul>
+<li>允许一个以上的结点无双亲</li>
+<li>一个结点可以有多于一个的双亲</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>网状模型的数据操纵与完整性约束</p>
+</li>
+<li><ul>
+<li>一般来说没有层次模型那样严格的完整性约束条件，由具体的网状数据库系统增加的限制提供约束条件</li>
+</ul>
+</li>
+<li><p>网状模型的优缺点</p>
+</li>
+<li><ul>
+<li><p>优点</p>
+</li>
+<li><ul>
+<li>更为直接地描述现实世界</li>
+<li>具有良好的性能，存取效率较高</li>
+</ul>
+</li>
+<li><p>缺点</p>
+</li>
+<li><ul>
+<li>结构比较复杂，并随着应用环境的扩大，数据库的结构越来越复杂，不利于最终用户掌握</li>
+<li>网状模型的DDL、DML复杂，并且要嵌入某一种高级语言中，不易掌握，不易使用</li>
+<li>用户必须了解系统结构的细节，编写应用程序的负担重</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系模型</p>
+</li>
+<li><ul>
+<li><p>关系模型是最重要的一种数据结构。关系数据库系统采用关系模型作为数据的组织方式</p>
+</li>
+<li><p>关系模型的数据结构</p>
+</li>
+<li><ul>
+<li><p>关系(relation)</p>
+</li>
+<li><ul>
+<li>一个关系对应通常说的一张表</li>
+</ul>
+</li>
+<li><p>元组(tuple)</p>
+</li>
+<li><ul>
+<li>表中的一行即为一个元组</li>
+</ul>
+</li>
+<li><p>属性(attribute)</p>
+</li>
+<li><ul>
+<li>表中的一列即为一个属性</li>
+</ul>
+</li>
+<li><p>码(key)</p>
+</li>
+<li><ul>
+<li>也称为码键。表中的某个属性组，它可以唯一确定一个元组</li>
+</ul>
+</li>
+<li><p>域(domain)</p>
+</li>
+<li><ul>
+<li>域是一组具有相同数据类型的值的集合</li>
+</ul>
+</li>
+<li><p>分量</p>
+</li>
+<li><ul>
+<li>元组中的一个属性值</li>
+</ul>
+</li>
+<li><p>关系模式</p>
+</li>
+<li><ul>
+<li><p>对关系的描述，一般表示为</p>
+</li>
+<li><ul>
+<li>关系名(属性1，属性2，···，属性n)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系模型的数据操纵与完整性约束</p>
+</li>
+<li><ul>
+<li><p>关系模型的数据操纵主要包括查询、插入、删除和更新数据</p>
+</li>
+<li><p>完整性约束条件</p>
+</li>
+<li><ul>
+<li>实体完整性</li>
+<li>参照完整性</li>
+<li>用户定义的完整性</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系模型的优缺点</p>
+</li>
+<li><ul>
+<li><p>优点</p>
+</li>
+<li><ul>
+<li>关系模型建立在严格的数学概念的基础上</li>
+<li>关系模型的概念单一</li>
+<li>关系模型的存取路径对用户透明</li>
+</ul>
+</li>
+<li><p>缺点</p>
+</li>
+<li><ul>
+<li>存取路径对用户隐蔽，查询效率不如格式化数据模型</li>
+<li>为了提高性能，数据库管理系统必须对用户的查询请求进行优化，因此增加了开发数据库管理系统的难度</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据库系统的结构</p>
+</li>
+<li><ul>
+<li><p>分类</p>
+</li>
+<li><ul>
+<li>从开发人员角度：数据库系统通常采用三级模式结构，是数据库系统内部的系统结构</li>
+<li>从用户角度：数据库系统的结构分为单用户结构、主从式结构、分布式结构、客户-服务器、浏览器-应用服务器/数据库服务器多层结构 等，这是数据库系统外部的体系结构。</li>
+</ul>
+</li>
+<li><p>数据库系统模式的概念</p>
+</li>
+<li><ul>
+<li><p>型</p>
+</li>
+<li><ul>
+<li>指对某一类数据的结构和属性的说明</li>
+</ul>
+</li>
+<li><p>值</p>
+</li>
+<li><ul>
+<li>型的一个具体复制</li>
+</ul>
+</li>
+<li><p>模式(schema)</p>
+</li>
+<li><ul>
+<li><p>数据库中全体数据的逻辑结构和特征的描述</p>
+</li>
+<li><p>反映的是数据的结构及其联系</p>
+</li>
+<li><p>是型的描述，不涉及具体的值</p>
+</li>
+<li><p>模式的一个具体值称为模式的一个实例(instance)</p>
+</li>
+<li><ul>
+<li>同一个模式可以有很多实例</li>
+<li>模式是相对稳定的，而实例是相对变动的</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>数据库系统的三级模式结构</strong></p>
+</li>
+<li><ul>
+<li><h1 id="数据库系统的三级模式结构是指数据库由外模式、模式和内模式三级构成"><a href="#数据库系统的三级模式结构是指数据库由外模式、模式和内模式三级构成" class="headerlink" title="数据库系统的三级模式结构是指数据库由外模式、模式和内模式三级构成"></a>数据库系统的三级模式结构是指数据库由外模式、模式和内模式三级构成</h1></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据库系统的三级模式结构</p>
+</li>
+<li><ul>
+<li><p>模式(schema)</p>
+</li>
+<li><ul>
+<li><p>模式也称逻辑模式</p>
+</li>
+<li><ul>
+<li>是数据库中全体数据的逻辑结构和特征的描述</li>
+<li>是所有用户的公共数据视图。</li>
+<li>是数据库系统模式结构的中间层</li>
+<li>不涉及数据的物理存储细节和硬件环境</li>
+<li>与具体的应用程序、所使用的应用开发工具及高级程序设计语言无关</li>
+</ul>
+</li>
+<li><p>一个数据库只有一个模式</p>
+</li>
+<li><p>数据库模式以某一种数据模型为基础，考虑了所有用户的需求</p>
+</li>
+</ul>
+</li>
+<li><p>外模式(external       schema)</p>
+</li>
+<li><ul>
+<li><p>外模式也称子模式(subschema)或用户模式</p>
+</li>
+<li><ul>
+<li>是数据库用户看见和使用的局部数据的逻辑结构和特征的描述</li>
+<li>是数据库用户的数据视图</li>
+<li>是与某一应用有关的数据的逻辑表示</li>
+</ul>
+</li>
+<li><p>一个数据库可以有多个外模式</p>
+</li>
+<li><p>外模式是保证数据库安全性的一个有力措施。</p>
+</li>
+</ul>
+</li>
+<li><p>内模式(internal       schema)</p>
+</li>
+<li><ul>
+<li><p>内模式也称存储模式(storage        schema)</p>
+</li>
+<li><ul>
+<li>是物理结构和存储方式的描述</li>
+<li>是数据在数据库内部的组织方式</li>
+</ul>
+</li>
+<li><p>一个数据库只有一个内模式</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li><p>数据库的二级映射功能与数据独立性</p>
+</li>
+<li><ul>
+<li><p>基本描述</p>
+</li>
+<li><ul>
+<li>数据库系统的三级模式是数据的三个抽象级别，它把数据的具体组织留给数据库管理系统管理，使用户能逻辑地、抽象地处理数据，而不必关心数据在计算机中的具体表示方式与存储方式。为了能够在系统内部实现这三个抽象层次的联系和转换，数据库管理系统在这三级模式之间提供了两层映像：外模式/模式映像 和 模式/内模式映像。</li>
+</ul>
+</li>
+<li><p>外模式/模式映像</p>
+</li>
+<li><ul>
+<li><p>模式描述的是数据的全局逻辑结构，外模式描述的是数据的局部逻辑结构</p>
+</li>
+<li><p>一个模式可以有任意多个外模式</p>
+</li>
+<li><p>每一个外模式，数据库系统都有一个外模式/模式映像</p>
+</li>
+<li><p>外模式/模式映像 保证了数据与程序的独立性，简称数据的逻辑独立性</p>
+</li>
+<li><ul>
+<li>当数据库管理员对各个外模式/模式的影响作相应改变，可以使外模式保持不变。应用程序是根据数据的外模式编写的，从而应用程序不必修改，从而保证了数据与程序的逻辑独立性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>模式/内模式映像</p>
+</li>
+<li><ul>
+<li><p>数据库中只有一个模式，也只有一个内模式，所以模式/内模式映像唯一</p>
+</li>
+<li><p>模式/内模式映像 保证了数据与程序的物理独立性，简称数据的物理独立性</p>
+</li>
+<li><ul>
+<li>当数据库的存储结构改变时，由数据库管理员对模式/内模式映像作相应改变，可以使模式保持不变，从而应用程序也不必改变，从而保证了数据与程序的物理独立性。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>-–</p>
+</li>
+<li></li>
+<li><h1 id="第二章-关系数据库"><a href="#第二章-关系数据库" class="headerlink" title="第二章 关系数据库"></a>第二章 关系数据库</h1></li>
+<li><ul>
+<li><ul>
+<li><p>关系数据结构及形式化定义</p>
+</li>
+<li><ul>
+<li><p>关系模型的数据结构只包含单一的数据结构——关系</p>
+</li>
+<li><p>关系</p>
+</li>
+<li><ul>
+<li><p>域(domain)</p>
+</li>
+<li><ul>
+<li>域是一组具有相同数据类型的值的集合</li>
+</ul>
+</li>
+<li><p>笛卡尔积(cartesian          product)</p>
+</li>
+<li><ul>
+<li><p>笛卡尔积是域上的一种运算</p>
+</li>
+<li><ul>
+<li>所有域的所有取值的集合</li>
+</ul>
+</li>
+<li><p>定义：</p>
+</li>
+<li><ul>
+<li>给定一组域,D2,D3,···，Dn,允许其中某些域是相同的，D1,D2,···,Dn的笛卡尔积为，其中，每一个元素(d1,d2,···,dn)叫做一个n元组(n-tuple)，或简称元组(tuple)，元组中的每一个值di叫做一个分量(component)。<img src="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image002.png" alt="img"></li>
+<li>一个域允许的不同取值个数称为这个域的基数(cardinal            number)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系(relation)</p>
+</li>
+<li><ul>
+<li><p>定义</p>
+</li>
+<li><ul>
+<li><p>D1xD2xD3x···xDn的子集叫做在域D1,D2,···,Dn上的关系，表示为R（D1，D2，···，Dn）</p>
+</li>
+<li><ul>
+<li><p>这里R表示关系的名字，n是关系的目或度(degree)</p>
+</li>
+<li><p>关系中的每个元素是关系中的元组，通常用t表示</p>
+</li>
+<li><ul>
+<li>当n=1时，称该关系为单元关系(unary              relation)，或一元关系</li>
+<li>当n=2时，称该关系为二元关系(binary              relation)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系是笛卡尔积的有限子集，所以关系也是一张二维表。</p>
+</li>
+<li><ul>
+<li><p>表的每行对应一个元组</p>
+</li>
+<li><p>表的每列对应一个域。</p>
+</li>
+<li><ul>
+<li><p>由于域可以相同，为了加以区分，给每列起一个名字，称为属性(attribute)。</p>
+</li>
+<li><p>n目关系必有n个属性。</p>
+</li>
+<li><p>若关系中的某一属性组的值能唯一地标识一个元组，而其子集不同，则称该属性组为候选码(candidate             key)</p>
+</li>
+<li><ul>
+<li>若一个关系由多个候选码，则选定其中一个为主码(primary              key)</li>
+</ul>
+</li>
+<li><p>所有候选码的各个属性称为主属性(prime             attribute)</p>
+</li>
+<li><ul>
+<li>不包含在任何候选码中的属性称为非主属性(non-prime              attribute)或非码属性(non-key attribute)</li>
+</ul>
+</li>
+<li><p>极端情况下</p>
+</li>
+<li><ul>
+<li>关系模式的所有属性是这个关系模式的候选码，称为全码</li>
+<li>如果一个关系是全码，则它只有唯一一个候选码</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>无限关系在数据库系统中无意义，因此，限定关系数据模型中的关系必须是有限集合</p>
+</li>
+</ul>
+</li>
+<li><p>关系可以有三种类型</p>
+</li>
+<li><ul>
+<li><p>基本关系（通常又称为基本表或基表）</p>
+</li>
+<li><ul>
+<li><p>基本说明</p>
+</li>
+<li><ul>
+<li>是实际存在的表</li>
+<li>是实际存储数据的逻辑表示</li>
+</ul>
+</li>
+<li><p>基本关系的性质</p>
+</li>
+<li><ul>
+<li><p>列是同质的(homogeneous)</p>
+</li>
+<li><ul>
+<li>每一列中的分量是同一类型的数据</li>
+</ul>
+</li>
+<li><p>不同的列可出自同一个域，称其中的每一列为一个属性，不同的属性要给予不同的属性名。</p>
+</li>
+<li><p>列的次序可以任意交换</p>
+</li>
+<li><p>任意两个元组的候选码不能取相同的值（去重）</p>
+</li>
+<li><p>行的次序可以任意交换</p>
+</li>
+<li><p>分量必须取原子值，每一个分量都必须是不可分的数据项（最基本）</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>查询表</p>
+</li>
+<li><ul>
+<li>查询结果对应的表</li>
+</ul>
+</li>
+<li><p>视图表</p>
+</li>
+<li><ul>
+<li>是由基本表或其他视图表导出的表</li>
+<li>视图表是虚表，不对应实际存储的数据</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系模式</p>
+</li>
+<li><ul>
+<li><p>关系模式是对关系的模式</p>
+</li>
+<li><ul>
+<li><p>关系模式是型，关系是值</p>
+</li>
+<li><ul>
+<li>关系是关系模式在某一时刻的状态或内容</li>
+<li>关系模式是静态的、稳定的，而关系是动态的、随时间不断变化的</li>
+</ul>
+</li>
+<li><p>关系模式可形式化地表示为</p>
+</li>
+<li><ul>
+<li><p>R（U,D,DOM,F）</p>
+</li>
+<li><ul>
+<li>| R：关系名 | U：组成该关系的属性名集合 | D：U中属性所来自的域 | DOM：属性向域的映像集合 | F：属性间数据的依赖关系集合 |<br>| ——— | ————————- | ——————– | ———————– | ————————— |<br>|           |                           |                      |                         |                             |</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系数据库</p>
+</li>
+<li><ul>
+<li>在一个给定的应用领域中，所有关系的集合构成一个关系数据库</li>
+<li>关系数据库的型称为关系数据库模式，是对关系数据库的描述</li>
+<li>关系数据库的值是这些关系模式在某一时刻对应的关系的集合，通常就称为关系数据库</li>
+</ul>
+</li>
+<li><p>关系模型的存储结构</p>
+</li>
+<li><ul>
+<li>略</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系操作</p>
+</li>
+<li><ul>
+<li><p>基本的关系操作</p>
+</li>
+<li><ul>
+<li><p>查询(query)</p>
+</li>
+<li><ul>
+<li><p>基本操作</p>
+</li>
+<li><ul>
+<li>| 选择(select) | 投影(project) | 并(union) | 差(except) | 笛卡尔积 |<br>| ———— | ————- | ——— | ———- | ——– |<br>|              |               |           |            |          |</li>
+</ul>
+</li>
+<li><p>其他操作</p>
+</li>
+<li><ul>
+<li>| 连接(join) | 除(divide) | 交(intersection) |<br>| ———- | ———- | —————- |<br>|            |            |                  |</li>
+</ul>
+</li>
+<li><p>其他操作可以用基本操作来定义和导出</p>
+</li>
+</ul>
+</li>
+<li><p>插入(insert)</p>
+</li>
+<li><p>删除(delete)</p>
+</li>
+<li><p>修改(update)</p>
+</li>
+<li><p>关系操作的特点</p>
+</li>
+<li><ul>
+<li>集合操作方式，操作的对象和结果都是集合。（这种操作方式也称为一次一集合(set-at-time)的方式，相应的，非关系数据模型的数据操作方式则为一次一记录(record-at-time)）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系数据语言的分类</p>
+</li>
+<li><ul>
+<li><p>关系代数(relational algebra)</p>
+</li>
+<li><ul>
+<li>用对关系的运算来表达查询要求</li>
+</ul>
+</li>
+<li><p>关系演算(relational calculus)</p>
+</li>
+<li><ul>
+<li>用谓词来表达查询要求</li>
+<li>关系演算可按谓词变元的基本对象是元祖变量还是域变量分为元组关系严肃三和域关系演算</li>
+</ul>
+</li>
+<li><p>详细分类</p>
+</li>
+<li><ul>
+<li><p>关系代数语言</p>
+</li>
+<li><ul>
+<li>LSBL</li>
+</ul>
+</li>
+<li><p>关系演算语言</p>
+</li>
+<li><ul>
+<li><p>元组关系演算语言</p>
+</li>
+<li><ul>
+<li>| ALPHA | QUEL |<br>| —– | —- |<br>|       |      |</li>
+</ul>
+</li>
+<li><p>域关系演算语言</p>
+</li>
+<li><ul>
+<li>QBE</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>具有关系代数和关系演算双重特点的语言</p>
+</li>
+<li><ul>
+<li>SQL</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系的完整性</p>
+</li>
+<li><ul>
+<li><p>关系模型的三类完整性约束</p>
+</li>
+<li><ul>
+<li><p>关系的两个不变性（必须满足的两类完整性约束条件）</p>
+</li>
+<li><ul>
+<li>1.实体完整性(entity           integrity)</li>
+<li>2.参照完整性(referential           integrity)</li>
+</ul>
+</li>
+<li><p>3.用户定义完整性(user-defined          integrity)</p>
+</li>
+</ul>
+</li>
+<li><p>实体完整性</p>
+</li>
+<li><ul>
+<li><p>规则</p>
+</li>
+<li><ul>
+<li>若属性（指一个或一组属性）A是基本关系R的主属性，则A不能取空值(null value)</li>
+</ul>
+</li>
+<li><p>说明</p>
+</li>
+<li><ul>
+<li>实体完整性规则针对基本关系而言</li>
+<li>现实中实体是可区分的，具有某种唯一性标识，因此关系模型中以主码作为唯一性标识</li>
+<li>候选码中的属性（即主属性）不能取空值</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>参照完整性</p>
+</li>
+<li><ul>
+<li><p>定义</p>
+</li>
+<li><ul>
+<li>设F是基本关系R的一个或一组属性，但不是关系R的码，Ks是基本关系S的主码。如果F与Ks相对应，则称F是R的外码(foreign           key)，并称基本关系R为参照关系(referencing relation),基本关系S为被参照关系(referenced           relation)或目标关系(target relation)</li>
+</ul>
+</li>
+<li><p>规则</p>
+</li>
+<li><ul>
+<li><p>若属性（或属性组）F是基本关系R的外码，它与基本关系S的主码Ks相对应（基本关系R和S不一定是不同的关系），相对于R中每个元组在F上的值必须：</p>
+</li>
+<li><ul>
+<li>或者取空值（F的每个属性均为空值）</li>
+<li>或者等于S中某个元组的主码值</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>用户定义的完整性</p>
+</li>
+<li><ul>
+<li><p>定义</p>
+</li>
+<li><ul>
+<li>用户定义的完整性是针对某一具体关系数据库的约束条件，它反映某一具体应用所涉及的数据必须满足的语义要求。</li>
+</ul>
+</li>
+<li><p>关系模型应提供定义和检验这类完整性的机制，以便用统一的系统的方法处理它们，而不需要由应用程序承担这一功能。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>关系代数</p>
+</li>
+<li><ul>
+<li><p>按运算符的不同分为两类：传统的集合运算、专门的关系运算</p>
+</li>
+<li><ul>
+<li><p>传统的集合运算（二目运算，包括并、差、交、笛卡尔积4种运算）</p>
+</li>
+<li><ul>
+<li>略</li>
+</ul>
+</li>
+<li><p>专门的关系运算（选择、投影、连接、除运算）</p>
+</li>
+<li><ul>
+<li><p>选择</p>
+</li>
+<li><ul>
+<li>又称为限制(restriction)，在关系R中选择满足给定条件的诸元组</li>
+</ul>
+</li>
+<li><p>投影</p>
+</li>
+<li><ul>
+<li>关系R上的投影是从R中选择出若干属性列组成新的关系</li>
+</ul>
+</li>
+<li><p>连接</p>
+</li>
+<li><ul>
+<li>连接也称为 连接，从两个关系的<strong>笛卡尔积</strong>中选取属性间满足一定条件的元组<img src="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image003.png" alt="img"></li>
+</ul>
+</li>
+<li><p>除运算</p>
+</li>
+<li><ul>
+<li>设关系R除以关系S的结果为关系T，则T包含所有在R但不在S中的属性及其值，且T的元组与S的元组的所有集合都在R中</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h1 id="第三章-关系数据库标准语言SQL"><a href="#第三章-关系数据库标准语言SQL" class="headerlink" title="第三章 关系数据库标准语言SQL"></a>第三章 关系数据库标准语言SQL</h1></li>
+</ul>
+</li>
+<li><ul>
+<li>略</li>
+<li><h1 id="第五章-数据库完整性-（理解即可，可能会考一点理论）"><a href="#第五章-数据库完整性-（理解即可，可能会考一点理论）" class="headerlink" title="第五章 数据库完整性 （理解即可，可能会考一点理论）"></a>第五章 数据库完整性 （理解即可，可能会考一点理论）</h1></li>
+</ul>
+</li>
+<li><ul>
+<li><p>基本说明</p>
+</li>
+<li><ul>
+<li>数据库的完整性是指数据的正确性和相容性</li>
+<li>数据的正确性是指数据符合现实世界语义、反映当前实际状况的</li>
+<li>数据的相容性是指数据库同一对象在不同关系表中的数据是符合逻辑的</li>
+</ul>
+</li>
+<li><p>作用</p>
+</li>
+<li><ul>
+<li>防止数据库中存在不符合语义的数据，即防止数据库中存在不正确的数据</li>
+</ul>
+</li>
+<li><p>数据库的安全性是保护数据库防止恶意破坏和非法存取，因此为维护数据库的完整性，要求数据库管理系统<strong>必须：</strong></p>
+</li>
+<li><ul>
+<li>提供定义完整性约束条件的机制</li>
+<li>提供完整性检查的方法</li>
+<li>进行违约处理</li>
+</ul>
+</li>
+<li><p>实体完整性</p>
+</li>
+<li><p>参照完整性</p>
+</li>
+<li><p>用户定义的完整性</p>
+</li>
+<li><p>完整性约束命名子句</p>
+</li>
+<li><p>断言</p>
+</li>
+<li><ul>
+<li>sql中CREATE ASSERTION语句，通过声明性断言(declarative         assertions)来指定更具一般性的约束</li>
+</ul>
+</li>
+<li><p>触发器</p>
+</li>
+<li><ul>
+<li>触发器(trigger)是用户定义在关系表上的一类由事务驱动的特殊过程</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>第六章 关系数据理论</p>
+</li>
+<li><ul>
+<li><p>问题的提出</p>
+</li>
+<li><p>规范化</p>
+</li>
+<li><ul>
+<li><p>函数依赖</p>
+</li>
+<li><ul>
+<li><p>定义6.1</p>
+</li>
+<li><ul>
+<li>设R(U)是属性集U上的关系模式，X，Y是U的子集。若对于R(U)的任意一个可能的关系r，r中不可能存在两个元组在X上的属性值相等，而在Y上的属性值不等，则称X函数确定Y或Y函数依赖于X，记作X→Y。</li>
+</ul>
+</li>
+<li><p>说明</p>
+</li>
+<li><ul>
+<li>函数依赖和别的数据依赖一样是语义范畴的概念，只能根据语义来确定一个函数依赖。</li>
+<li>函数依赖不是指关系模式R的某个或某些关系满足的约束条件，而是指R的一切关系均要满足的约束条件。</li>
+</ul>
+</li>
+<li><p>一些术语和记号</p>
+</li>
+<li><ul>
+<li>X→Y，但Y     X，则称X→Y是非平凡的函数依赖。</li>
+<li>X→Y，但Y X，则称X→Y是平凡的函数依赖。<img src="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image004.png" alt="img"></li>
+<li>X→Y，则X称为这个函数依赖的决定属性组，也称为决定因素</li>
+<li>X→Y，Y→X，则记作X←→Y。</li>
+<li>Y不函数依赖于X，则记作X  Y。</li>
+</ul>
+</li>
+<li><p>定义6.2</p>
+</li>
+<li><ul>
+<li>在R(U)中，如果X→Y，并且对于X的任何一个真子集，都有X’   Y’,则称Y对X完全函数依赖，记作<img src="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image005.png" alt="img"></li>
+<li>若X→Y，但Y不完全函数依赖于X，则称Y对X部分函数依赖，记作</li>
+</ul>
+</li>
+<li><p>定义6.3</p>
+</li>
+<li><ul>
+<li>在R(U)中，如果X→Y(Y    X),Y→X，Y→Z，Z  Y，则称Z对X传递函数依赖。记为 X → Z。<img src="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image006.png" alt="img"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>码</p>
+</li>
+<li><ul>
+<li><p>码是关系模式中的一个重要概念。</p>
+</li>
+<li><p>定义6.4</p>
+</li>
+<li><ul>
+<li></li>
+</ul>
+</li>
+<li><p>定义6.5</p>
+</li>
+<li><ul>
+<li>关系模式R中属性或属性组X并非R的码，但X是另一个关系模式的码，则称X是R的外部码，也称外码。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>范式</p>
+</li>
+<li><ul>
+<li><p>关系数据库中的关系是要满足一定要求的，满足不同程度要求的为不同范式。</p>
+</li>
+<li><p>各种范式之间的联系：</p>
+</li>
+<li><ul>
+<li><h1 id="偏序覆盖"><a href="#偏序覆盖" class="headerlink" title="偏序覆盖"></a>偏序覆盖</h1></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><ul>
+<li>一个低一级范式的关系模式通过模式分解可以转换为若干个高一级范式的关系模式的集合，这种过程就叫规范化</li>
+</ul>
+</li>
+<li><ul>
+<li><p>2NF</p>
+</li>
+<li><ul>
+<li><p>定义6.6</p>
+</li>
+<li><ul>
+<li>若R1NF，且每一个非主属性完全函数依赖于任何一个候选码，则R2NF<img src="file:///C:/Users/user/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image009.png" alt="img"></li>
+</ul>
+</li>
+<li><p>一个关系不属于2NF，则会产生以下问题</p>
+</li>
+<li><ul>
+<li>插入异常</li>
+<li>删除异常</li>
+<li>修改复杂</li>
+<li>数据冗余度大</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>3NF</p>
+</li>
+<li><p>BCNF</p>
+</li>
+<li><p>多值依赖</p>
+</li>
+</ul>
+</li>
+<li><ul>
+<li>数据依赖的公理系统</li>
+<li>模式分解（PPT）</li>
+</ul>
+</li>
+<li><ul>
+<li><p>第七章 数据库设计</p>
+</li>
+<li><ul>
+<li><p>数据库设计概述</p>
+</li>
+<li><ul>
+<li><p>数据库设计是指对于一个给定的应用环境，构造（设计）优化的数据库逻辑模式和物理结构，并据此建立数据库及其应用系统，使之能够有效地存储和管理数据，满足各种用户的应用需求，包括信息管理要求和数据操作要求。</p>
+</li>
+<li><p>数据库设计的基本步骤</p>
+</li>
+<li><ul>
+<li>需求分析</li>
+<li>概念结构设计</li>
+<li>逻辑结构设计</li>
+<li>物理结构设计</li>
+<li>数据库实施</li>
+<li>数据库运行和维护</li>
+</ul>
+</li>
+<li><p>数据字典</p>
+</li>
+<li><ul>
+<li>数字字典是关于数据库中数据的描述，即元数据，而不是数据本身。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>概念结构设计</p>
+</li>
+<li><ul>
+<li><p>E-R模型：用E-R图来描述现实世界的概念模型</p>
+</li>
+<li><p>E-R图</p>
+</li>
+<li><ul>
+<li>实体型用矩形表示</li>
+<li>属性要椭圆形表示</li>
+<li>联系用菱形表示</li>
+</ul>
+</li>
+<li><p>设计分E-R图的步骤</p>
+</li>
+<li><ul>
+<li><p>选择局部应用</p>
+</li>
+<li><ul>
+<li>在多层的数据流图中选择一个适当层次的数据流图，作为设计分R-R图的出发点</li>
+<li>通常以中层数据流图作为设计分E-R图的依据</li>
+</ul>
+</li>
+<li><p>逐一设计分E-R图（围绕什么数据，什么实体出现的最多，设计草图）</p>
+</li>
+<li><ul>
+<li>将各局部应用涉及的数据分别从数据字典中抽取出来</li>
+<li>参照数据流图，标定各局部应用中的实体、实体的属性、标识实体的码</li>
+<li>确定实体之间的联系及其类型（1：1；1：n；m：n）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h1 id="第九章"><a href="#第九章" class="headerlink" title="第九章"></a>第九章</h1></li>
+</ul>
+</li>
+<li><ul>
+<li>代数优化</li>
+<li><h1 id="第十章-数据库恢复技术"><a href="#第十章-数据库恢复技术" class="headerlink" title="第十章 数据库恢复技术"></a>第十章 数据库恢复技术</h1></li>
+</ul>
+</li>
+<li><ul>
+<li><p>事务</p>
+</li>
+<li><ul>
+<li>事务是用户定义的一个数据库操作序列，这些操作要么全做，要么全不做，是一个不可分割的工作单位。（是恢复和并发控制的管理单位）</li>
+</ul>
+</li>
+<li><p>事务的四个特性（ACID特性）</p>
+</li>
+<li><ul>
+<li>原子性</li>
+<li>一致性</li>
+<li>隔离性</li>
+<li>持续性</li>
+</ul>
+</li>
+<li><h1 id="第十一章-并发控制"><a href="#第十一章-并发控制" class="headerlink" title="第十一章 并发控制"></a>第十一章 并发控制</h1></li>
+</ul>
+</li>
+<li><ul>
+<li>封锁</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2019年03月28日 10:42</p>
-        <p>原始链接： <a class="post-url" href="/2019/03/28/test/" title="test">cpyh.github.io/2019/03/28/test/</a></p>
+        <p>最后更新： 2019年06月20日 09:50</p>
+        <p>原始链接： <a class="post-url" href="/2019/03/28/test/" title="数据库系统概论">cpyh.github.io/2019/03/28/test/</a></p>
         <footer>
             <a href="cpyh.github.io">
                 <img src="/images/cpyh.jfif" alt="成酱一十一">
@@ -154,6 +1502,13 @@
         <ul class="article-footer-menu">
             
             
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/--笔记--test/" class="color4">-- 笔记 -- test</a>
+      
+  </li>
+
         </ul>
         
     </footer>
@@ -161,6 +1516,12 @@
 </article>
 
 
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第一章-绪论部分"><span class="post-toc-text">第一章 绪论部分</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#数据库系统的三级模式结构是指数据库由外模式、模式和内模式三级构成"><span class="post-toc-text">数据库系统的三级模式结构是指数据库由外模式、模式和内模式三级构成</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第二章-关系数据库"><span class="post-toc-text">第二章 关系数据库</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第三章-关系数据库标准语言SQL"><span class="post-toc-text">第三章 关系数据库标准语言SQL</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第五章-数据库完整性-（理解即可，可能会考一点理论）"><span class="post-toc-text">第五章 数据库完整性 （理解即可，可能会考一点理论）</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#偏序覆盖"><span class="post-toc-text">偏序覆盖</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第九章"><span class="post-toc-text">第九章</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第十章-数据库恢复技术"><span class="post-toc-text">第十章 数据库恢复技术</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第十一章-并发控制"><span class="post-toc-text">第十一章 并发控制</span></a></li></ol>
+        </nav>
+    </aside>
+    
 
 <nav id="article-nav">
   
@@ -231,7 +1592,7 @@
             <a class="category-link" href="/categories/information/">information</a>
         </div>
         <div id="sidebar-menu-box-tags">
-            <a href="/tags/introduction/" style="font-size: 10px;">introduction</a>
+            <a href="/tags/笔记-test/" style="font-size: 10px;">-- 笔记 -- test</a> <a href="/tags/introduction/" style="font-size: 10px;">introduction</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -264,7 +1625,7 @@
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            <a href="/tags/introduction/" style="font-size: 10px;">introduction</a>
+            <a href="/tags/笔记-test/" style="font-size: 10px;">-- 笔记 -- test</a> <a href="/tags/introduction/" style="font-size: 10px;">introduction</a>
         </div>
     </div>
 </div>
