@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wang Cheng's Personal Page"
+title                    : "Wang Cheng's Personal Website"
 title_separator          : "-"
 name                     : &name "Wang Cheng"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "cpyh/cpyh.github.io"
 author:
   # Biographic information
   avatar           : "avatar.png" #"profile.png"
-  name             : "王成/WangCheng"
+  name             : "Wang Cheng"
   pronouns         : # "he" # example: "she/her"  
   bio              : "A student studying at the University of Science and Technology of China."
   location         : "Hefei"
@@ -269,7 +269,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-      hide: true
 
 
 # Sass/SCSS
