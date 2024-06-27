@@ -25,7 +25,7 @@ author:
   name             : "王成/WangCheng"
   pronouns         : # "he" # example: "she/her"  
   bio              : "A student studying at the University of Science and Technology of China."
-  location         : "Heifei"
+  location         : "Hefei"
   employer         : "USTC"
   uri              : # URL
   email            : "wangcheng@mail.ustc.edu.cn" 
@@ -44,7 +44,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "cpyh"
-  kaggle           : "cpyh" # Username  
+  kaggle           : "cpyhcc" # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
