@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wang Cheng's Personal Website"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Wang Cheng"
 description              : &description "personal description"
